@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Project Template Generator</title>
   <link rel="stylesheet" href="/css/style.css">
 </head>
+
 <body>
   <form id="templateForm">
     <h1>Project Template Generator</h1>
@@ -16,14 +18,30 @@
     <input type="text" id="projectTitle" name="projectTitle" required><br><br>
     <label for="subTitle">Subtitle:</label>
     <input type="text" id="subTitle" name="subTitle" required><br><br>
+
     <label for="university">University:</label>
-    <input type="text" id="university" name="university" required><br><br>
+    <select id="university" name="university" required>
+      <option value="CHHATTISGARH SWAMI VIVEKANAND TECHNICAL UNIVERSITY">CSVTU</option>
+    </select><br><br>
     <label for="degree">Degree:</label>
-    <input type="text" id="degree" name="degree" required><br><br>
+    <select id="degree" name="degree" required>
+      <option value="Bachelor of technology">BTech</option>
+      <option value="Master of technology">MTech</option>
+    </select><br><br>
+
     <label for="branch">Branch:</label>
     <input type="text" id="branch" name="branch" required><br><br>
+
     <label for="specialization">Specialization:</label>
-    <input type="text" id="specialization" name="specialization" required><br><br>
+    <select id="specialization" name="specialization" required>
+      <option value="AI">AI</option>
+      <option value="AIML">AIML</option>
+      <option value="DS">DS</option>
+      <option value="IOT">IOT</option>
+      <option value="BDA">BDA</option>
+      <option value="GT">GT</option>
+    </select><br><br>
+    <!-- <input type="text" id="specialization" name="specialization" required><br><br> -->
 
     <label for="guideName">Guide Name:</label>
     <input type="text" id="guideName" name="guideName" required><br><br>
@@ -47,4 +65,5 @@
 
   <script src="/js/script.js"></script>
 </body>
+
 </html>
