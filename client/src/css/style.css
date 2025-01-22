@@ -9,17 +9,20 @@ body {
     /* background-color: black; */
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 20px;
+    padding: 10px;
     background-color: #f4f4f9;
     color: #333;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+.container{
     display: flex;
     justify-content: space-between;
 }
-
 h1 {
     text-align: center;
     margin-bottom: 20px;
-    color: skyblue;
+    color: rgb(48, 171, 220);
 }
 
 form {
@@ -76,4 +79,16 @@ iframe {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
+}
+
+footer{
+    background-color: skyblue;
+    color: #333;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    bottom: 0;
+    /* width: ; */
+    padding: 20px;
+    font-weight: 700;
 }

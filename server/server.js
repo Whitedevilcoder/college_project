@@ -64,7 +64,7 @@ app.post('/generate', (req, res) => {
     doc.text(`${branch}`, 105, 110, { align: "center" });
     doc.text("specialization in", 105, 120, { align: "center" });
 
-    doc.setFont("times", "italic");
+    doc.setFont("times", "normal");
     doc.text(`${specialization}`, 105, 130, { align: "center" });
 
     // Authors
@@ -130,7 +130,7 @@ app.post('/generate', (req, res) => {
     doc.text(`${branch}`, 105, 110, { align: "center" });
     doc.text("specialization in", 105, 120, { align: "center" });
 
-    doc.setFont("times", "italic");
+    doc.setFont("times", "normal");
     doc.text(`${specialization}`, 105, 130, { align: "center" });
 
     // Authors

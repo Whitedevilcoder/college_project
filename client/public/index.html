@@ -9,6 +9,8 @@
 </head>
 
 <body>
+  <div class="container">
+
   <form id="templateForm">
     <h1>Project Template Generator</h1>
     <label for="name">Name:</label>
@@ -34,6 +36,7 @@
 
     <label for="specialization">Specialization:</label>
     <select id="specialization" name="specialization" required>
+      <option value=""></option>
       <option value="AI">AI</option>
       <option value="AIML">AIML</option>
       <option value="DS">DS</option>
@@ -45,8 +48,8 @@
 
     <label for="guideName">Guide Name:</label>
     <input type="text" id="guideName" name="guideName" required><br><br>
-    <label for="desgination">Desgination:</label>
-    <input type="text" id="desgination" name="desgination" required><br><br>
+    <label for="designation">Designation:</label>
+    <input type="text" id="designation" name="designation" required><br><br>
 
     <label for="department">Department:</label>
     <input type="text" id="department" name="department" required><br><br>
@@ -62,6 +65,16 @@
   </form>
 
   <iframe id="pdfPreview" style="display: none;"></iframe>
+</div>
+
+  <footer>
+    <p>
+
+      a G Praveen Kumar production <br>
+      templateGenerator &copy; 2025
+    </p>
+       
+  </footer>
 
   <script src="/js/script.js"></script>
 </body>
