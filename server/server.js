@@ -57,7 +57,7 @@ app.post('/generate', (req, res) => {
     doc.setFontSize(12);
     doc.text("Submitted to", 105, 70, { align: "center" });
     doc.setFont("times", "bold");
-    doc.text(`${university}`,105,80,{ align: "center" });
+    doc.text(`${university}`,105,80,{ align: "center134567890-poiuyt" });
     doc.setFont("times", "normal");
     doc.text(`${degree}`, 105, 90, { align: "center" });
     doc.text("In", 105, 100, { align: "center" });
